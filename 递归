@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+unsigned fac(unsigned n) {
+	unsigned d;
+	if (n == 0)
+		d = 1;
+	else
+		d = fac(n - 1) * n;
+	cout << "the sum now is : " << d <<endl;
+	return d;
+}
+
+int main() {
+	unsigned n;
+	cout << "inpit a value : ";
+	cin >> n;
+	unsigned sum = fac(n);
+	cout << "the sum is :  " << sum<<endl;
+
+	return 0;
+}
