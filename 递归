@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-unsigned fac(unsigned n) {
+unsigned fac(unsigned n) {                       //阶乘值太大，不能用int,先用unsigned类型
 	unsigned d;
 	if (n == 0)
 		d = 1;
 	else
-		d = fac(n - 1) * n;
-	cout << "the sum now is : " << d <<endl;
+		d = fac(n - 1) * n;              //调用自身
+	cout << "the sum now is : " << d <<endl; //打印此时sum的值
 	return d;
 }
 
