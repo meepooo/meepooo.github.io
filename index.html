@@ -1,189 +1,550 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 
-<head>
+	<head>
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="" />
+		<script type="application/x-javascript">
+			addEventListener("load", function() {
+				setTimeout(hideURLbar, 0);
+			}, false);
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+		<!-- bootstrap-css -->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<!--// bootstrap-css -->
+		<!-- css -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+		<!--// css -->
+		<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+		<link href="css/owl.theme.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+		<!-- font-awesome icons -->
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<!-- //font-awesome icons -->
+		<!-- font -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet'
+		 type='text/css'>
+		<!-- //font -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<!-- menu -->
+		<link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- //menu -->
+		<script>
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
 
-    <title>我的简历</title>
+					autoPlay: 3000, //Set AutoPlay to 3 seconds
+					autoPlay: true,
+					items: 3,
+					itemsDesktop: [640, 5],
+					itemsDesktopSmall: [414, 4]
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				});
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+			});
+		</script>
+	</head>
 
-    <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+	<body>
+		<!-- banner -->
+		<div class="banner" id="home">
+			<!-- menu -->
+			<div id="toggle_m_nav">
+				<div id="m_nav_menu" class="m_nav">
+					<div class="m_nav_ham" id="m_ham_1"></div>
+					<div class="m_nav_ham" id="m_ham_2"></div>
+					<div class="m_nav_ham" id="m_ham_3"></div>
+				</div>
+			</div>
 
-</head>
+			<div id="m_nav_container" class="m_nav">
+				<ul id="m_nav_list" class="m_nav">
+					<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">Home</a> </li>
+					<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">About</a> </li>
+					<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">Statistics</a> </li>
+					<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">Experience</a> </li>
+					<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">Projects</a> </li>
+					<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">Contact</a> </li>
+				</ul>
+			</div>
+			<!-- menu -->
+			<div class="container">
+				<div class="agile-logo">
+					<h1><a href="index.html"><span>我的简历</span></a></h1>
+				</div>
+				<div class="w3l-banner-grids">
+					<div class="col-md-8 w3ls-banner-right">
+						<div class="banner-right-img">
+							<img src="images/灭霸.jpg" alt="" />
+						</div>
+						<div class="banner-right-info">
+							<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque tellus dignissim dolor
+								dignissim, sit amet convallis nisi dignissim.</h2>
+							<p>Donec dolor felis, consectetur eget massa non, mattis euismod est. Nam augue neque, hendrerit nec scelerisque
+								non, ultrices at ligula. Praesent posuere, turpis eget lobortis elementum, ex ante ultricies ligula, sit amet
+								varius
+								lacus dui in magna. Aliquam erat volutpat. Nulla condimentum, enim vitae congue ultrices, nibh erat efficitur
+								sem, vel iaculis lectus eros in turpis. Aliquam venenatis cursus suscipit.</p>
+						</div>
+						<div class="clearfix"> </div>
+						<div class="w3-button">
+							<div class="w3-button-info m_nav_item">
+								<a class="hvr-sweep-to-bottom" href="#contact">Contact Me</a>
+							</div>
+						</div>
+						<div class="social-grids">
+							<div class="social-info">
+								<h4>Follow : </h4>
+							</div>
+							<div class="agileinfo-social-grids">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-4 w3ls-banner-left">
+						<div class="w3ls-banner-left-info">
+							<h4>Job Title</h4>
+							<p>Web Designer and Developer</p>
+						</div>
+						<div class="w3ls-banner-left-info">
+							<h4>Name</h4>
+							<p>Steve Watson</p>
+						</div>
+						<div class="w3ls-banner-left-info">
+							<h4>Sex</h4>
+							<p>Male</p>
+						</div>
+						<div class="w3ls-banner-left-info">
+							<h4>Address</h4>
+							<p>Eiusmod Tempor inclore Place,Kingsport 56777.</p>
+						</div>
+						<div class="w3ls-banner-left-info">
+							<h4>Email Address</h4>
+							<p><a href="mailto:example@email.com">mail@example.com</a></p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //banner -->
+		<div class="tlinks">Collect from <a href="http://www.cssmoban.com/">网页模板</a></div>
+		<!-- about -->
+		<div class="about" id="about">
+			<div class="container">
+				<div class="wthree-about-grids">
+					<div class="col-md-6 wthree-about-left">
+						<h1>IT 技能</h1>
+						<h3>部分IT技能简介</h3>
+						<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在2年多后台开发工作的同时，学习了...C++、JAVA、JS、H5等语言语言并熟练掌握spring、vue等框架，对
+							Eclipse、Visual Studio、Idea、HBuilder、VS code等IDE开发工具如臂挥使。
+							<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为是后台开发工作，我在工作中，熟练掌握了运用
+							tomcat/nginx/websphere服务、各种Linux/UNIX系统，熟悉REDHAT等操作系统，熟悉使用Linux各种命令、MYSQL、DB2数据库更是每天都在打交道，十分熟悉，还有Linux系统下熟练使用
+							shell/perl/lua等脚本语言、熟悉TUXEDO/MQ等中间件；熟悉TCP/IP、HTTP 、HTTPS 等通信协议。
+							<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工作之余，由于对Web页面、APP极度感兴趣，所以学习了Vue框架，uniapp,并完成完整的项目：新闻类APP，仿美团外卖APP
+						</h4>
+					</div>
+					<div class="col-md-6 wthree-about-right">
+						<h3>Skills</h3>
+						<div class="skills-bar">
+							<section class='bar'>
+								<section class='wrap'>
+									<div class='wrap_right'>
+										<div class='bar_group'>
+											<div class='bar_group__bar thin' label='C/C++/JAVA' show_values='true' tooltip='true' value='70'></div>
+											<div class='bar_group__bar thin' label='HTML5/JS/jQuery' show_values='true' tooltip='true' value='85'></div>
+											<div class='bar_group__bar thin' label='ORACLE/DB2/MYSQL' show_values='true' tooltip='true' value='80'></div>
+											<div class='bar_group__bar thin' label='TOMCAT/WEBSPHARE/NGINX' show_values='true' tooltip='true' value='70'></div>
+											<div class='bar_group__bar thin' label='Struts/Spring/Hibernate' show_values='true' tooltip='true' value='75'></div>
+											<div class='bar_group__bar thin' label='Eclipse/Visual Studio/Idea/Hbuilder/Xshell' show_values='true'
+											 tooltip='true' value='100'></div>
+										</div>
+									</div>
+									<div class='clear'></div>
+								</section>
+							</section>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //about -->
+		<!-- statistics -->
+		<div class="jarallax statistics" id="statistics">
+			<div class="container">
+				<div class="w3-agileits-statistics-heading">
+					<h3>统计数据</h3>
+				</div>
+				<div class="agile-statistics-grids">
+					<div class="col-sm-4 agile-statistics-grid">
+						<h4>1024</h4>
+						<i class="fa fa-desktop" aria-hidden="true"></i>
+						<p>完成项目</p>
+					</div>
+					<div class="col-sm-4 agile-statistics-grid statistics-grid2">
+						<h4>2746</h4>
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<p>客户数</p>
+					</div>
+					<div class="col-sm-4 agile-statistics-grid">
+						<h4>575</h4>
+						<i class="fa fa-trophy" aria-hidden="true"></i>
+						<p>Awards</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<script src="js/jarallax.js"></script>
+				<script src="js/SmoothScroll.min.js"></script>
+				<script type="text/javascript">
+					/* init Jarallax */
+					$('.jarallax').jarallax({
+						speed: 0.5,
+						imgWidth: 1366,
+						imgHeight: 768
+					})
+				</script>
+			</div>
+		</div>
+		<!-- //statistics -->
 
-<body>
+		<!-- 		</div> 
+		</div> -->
+		<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">我的简历</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					Menu
-					<i class="fas fa-bars"></i>
-				</button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">首页</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">关于我</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="post.html">技能与自我评价</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">项目与工作经验</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">联系我</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="site-heading">
-                        <h1>Welcome</h1>
-                        <span class="subheading"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="post-preview">
-                    <a href="about.html">
-                        <h2 class="post-title">
-                            我是一名程序员
-                        </h2>
-                        <h3 class="post-subtitle">
-                            工作中，本人要求严谨，项目时间与资源紧张时能顶住压力完成任务，遇到技术问题能快速分析定位并解决问题。本人活泼开朗善良阳光，能很快融入团队，能敏锐了解客户需求，能处理好与客户之间的关系。 生活中，本人热爱运动与健身，拥有积极阳光的生活心态。为人和善，善于与人沟通，团队协作能力强。心态好，能抗压。
-                            <br />寻求到贵公司与更多优秀精英一起工作的机会。在提升自己，实现自我价值，为公司赢得更多的利益的同时 ，也做更好的自己。
-                        </h3>
-                    </a>
-                    <p class="post-meta">Wrote on September 24, 2019</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            沉淀的3年</h2>
-                        <h3 class="post-subtitle">
-                            在2年多后台开发工作的同时，学习了...C++、JAVA、JS、H5等语言语言并熟练掌握spring、vue等框架，对 Eclipse、Visual Studio、Idea、HBuilder、VS code等IDE开发工具如臂挥使。
-                            <br />因为是后台开发工作，我在工作中，熟练掌握了运用 tomcat/nginx/websphere服务、各种Linux/UNIX系统，熟悉REDHAT等操作系统，熟悉使用Linux各种命令、MYSQL、DB2数据库更是每天都在打交道，十分熟悉，还有Linux系统下熟练使用 shell/perl/lua等脚本语言、熟悉TUXEDO/MQ等中间件；熟悉TCP/IP、HTTP 、HTTPS 等通信协议。
-                            <br />工作之余，由于对Web页面、APP极度感兴趣，所以学习了Vue框架，uniapp,并完成完整的项目：新闻类APP，仿美团外卖APP
-                        </h3>
-                    </a>
-                    <p class="post-meta">Wrote by on September 18, 2019</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="work.html">
-                        <h2 class="post-title">
-                            东莞农商银行瀚银支付项目：<br />
-                        </h2>
-                        <h3 class="post-subtitle">
-							主要工作是进行需求分析，概要设计，详细设计，数据库设计，DEV环境开发，SIT测试，UAT测试，
-							至上线评审，制定上线方案，到生产业务验证，客户体验反馈与程序优化等
-							<br />使用技术：开发语言LINUX C/C++，
-							<br />开发平台GAPS平台（恒生电子自主研发），数据库DB2，脚本语言shell、perl，通讯协议SOCKET、HTTPS，报文安全MD5加密解密，证书签名验证；
-							<br />项目介绍：项目是与中国电信、联通、移动系统合作，给东莞农商银行的客户提供短信、通话等积分制APP一键式绑定服务。
-							<br />项目分为中间业务平台开发与通讯前置开发。中间业务平台连接数据库，共享存储NAS，管理平台，银行核心账务系统，短信平台等，实现流水登记、信息查询、错误告警，自动发短信，交易账务处理与积分登记等功能。
-							<br />通讯前置连接移动、联通、电信应用服务器，实现与移动、联通、电信服务器通讯，报文加密与CA证书签名
-                            <br />完成项目还包括手机银行缴费APP（企业级）、市财政局非税系统、工商局自建CA系统、银校通项目、互联网缴费平台等。
-                        </h3>
-                    </a>
-                    <p class="post-meta">Wrote August 24, 2019</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            你相信缘分吗
-                        </h2>
-                        <h3 class="post-subtitle">
-                            一个宇宙，<br />九大行星，<br />809个岛屿，<br />204个国家，<br />80亿人，<br />能够遇见你，让你看到我的简历，<br /> 不是宇宙规则 运转下的偶然<br />而是我一生中的必然。 </h3>
-                    </a>
-                    <p class="post-meta">Wrote on July 8, 2019</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <div class="clearfix">
-                    <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-									</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-									</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-github fa-stack-1x fa-inverse"></i>
-									</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
-
-</body>
+		<!-- projects -->
+		<div class="projects" id="projects">
+			<div class="container">
+				<div class="w3-agileits-statistics-heading experience-heading">
+					<h3>完成的项目</h3>
+				</div>
+			</div>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab"
+						 aria-controls="home" aria-expanded="true">全部</a></li>
+					<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">大型</a></li>
+					<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">互联网/银行</a></li>
+					<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">APP</a></li>
+					<li role="presentation"><a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">Other</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+						<div class="w3_tab_img">
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p1.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p2.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p3.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p4.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p5.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p6.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p7.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p8.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+						<div class="w3_tab_img">
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p6.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p9.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p9.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+						<div class="w3_tab_img">
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p1.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p5.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p7.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p3.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+						<div class="w3_tab_img">
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p2.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p4.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p10.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p10.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+						<div class="w3_tab_img">
+							<div class="col-md-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/p8.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/jquery.tools.min.js"></script>
+			<script src="js/jquery.mobile.custom.min.js"></script>
+			<script src="js/jquery.cm-overlay.js"></script>
+			<script>
+				$(document).ready(function() {
+                $('.cm-overlay').cmOverlay();
+            });
+        </script>
+			<!-- experience -->
+			<div class="experience" id="experience">
+				<div class="container">
+					<div class="w3-agileits-statistics-heading experience-heading">
+						<h3>工作经验</h3>
+					</div>
+					<div class="w3-agile-experience-grids">
+						<div class="experience-top-grids">
+							<div class="col-md-6 experience-grid">
+								<div class="experience-grid-icon icon-left hvr-radial-out">
+									<i class="fa fa-folder-open" aria-hidden="true"></i>
+								</div>
+								<div class="experience-grid-info">
+									<h5>Ut dapibus nisi turpis</h5>
+									<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus,
+										arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+								</div>
+							</div>
+							<div class="col-md-6 experience-grid experience-grid1">
+								<div class="experience-grid-icon icon-left hvr-radial-out">
+									<i class="fa fa-bell" aria-hidden="true"></i>
+								</div>
+								<div class="experience-grid-info">
+									<h5>Ut dapibus nisi turpis</h5>
+									<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus,
+										arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="experience-top-grids">
+							<div class="col-md-6 experience-grid experience-grid2">
+								<div class="experience-grid-icon icon-left hvr-radial-out">
+									<i class="fa fa-comments" aria-hidden="true"></i>
+								</div>
+								<div class="experience-grid-info">
+									<h5>Ut dapibus nisi turpis</h5>
+									<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus,
+										arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+								</div>
+							</div>
+							<div class="col-md-6 experience-grid experience-grid3">
+								<div class="experience-grid-icon icon-left hvr-radial-out">
+									<i class="fa fa-asterisk" aria-hidden="true"></i>
+								</div>
+								<div class="experience-grid-info">
+									<h5>Ut dapibus nisi turpis</h5>
+									<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus,
+										arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //projects -->
+		<!-- map -->
+		
+	<!-- 	<div class="map-grid">
+			<iframe src="" class="map" style="border:0" allowfullscreen=""></iframe>
+		</div> -->
+		<!-- //map -->
+		<!-- contact -->
+		<div class="contact" id="contact">
+			<div class="container">
+				<div class="w3-agileits-statistics-heading experience-heading">
+					<h3>Contact Me</h3>
+				</div>
+				<div class="contact-form">
+					<form action="#" method="post">
+						<div class="fields-grid">
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" name="Full Name" required="">
+								<label>Full Name</label>
+								<span></span>
+							</div>
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" name="Phone" required="">
+								<label>Phone</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="Email" required="">
+								<label>Email</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="Subject" required="">
+								<label>Subject</label>
+								<span></span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="styled-input textarea-grid">
+							<textarea name="Message" required></textarea>
+							<label>Message</label>
+							<span></span>
+						</div>
+						<input type="submit" value="SEND">
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- //contact -->
+		<!-- copyright -->
+		<div class="agileits-w3layouts-footer">
+			<div class="container">
+				<p>© 2018-2028 meepoooo.github.io 版权所有 个人主页 ：<a href="http://www.baidu.com/" title="我的" target="_blank">我的简历</a></p>
+			</div>
+		</div>
+		<!-- //copyright -->
+		<script src="js/bars.js"></script>
+		<script src="js/owl.carousel.js"></script>
+	</body>
 
 </html>
